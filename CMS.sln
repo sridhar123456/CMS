@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS", "CMS\CMS.csproj", "{76EF4E12-E62D-4308-8398-781588B3ED85}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0644F14C-066F-4D08-A395-670FB8AAE5BD} = {0644F14C-066F-4D08-A395-670FB8AAE5BD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Common", "CMS.common\CMS.Common.csproj", "{ECC98470-05E1-4F4A-AFEC-7A4F7C707DB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Model", "CMS.model\CMS.Model.csproj", "{DF3F9F64-2722-46C8-9C86-F618E48E8525}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.DAL", "CMS.services\CMS.DAL.csproj", "{0644F14C-066F-4D08-A395-670FB8AAE5BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.BAL", "CMS.BAL\CMS.BAL.csproj", "{01CD5BA5-16B0-4DF5-8621-602D5A0FA670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76EF4E12-E62D-4308-8398-781588B3ED85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EF4E12-E62D-4308-8398-781588B3ED85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EF4E12-E62D-4308-8398-781588B3ED85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EF4E12-E62D-4308-8398-781588B3ED85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC98470-05E1-4F4A-AFEC-7A4F7C707DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC98470-05E1-4F4A-AFEC-7A4F7C707DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC98470-05E1-4F4A-AFEC-7A4F7C707DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC98470-05E1-4F4A-AFEC-7A4F7C707DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3F9F64-2722-46C8-9C86-F618E48E8525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3F9F64-2722-46C8-9C86-F618E48E8525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3F9F64-2722-46C8-9C86-F618E48E8525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3F9F64-2722-46C8-9C86-F618E48E8525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0644F14C-066F-4D08-A395-670FB8AAE5BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0644F14C-066F-4D08-A395-670FB8AAE5BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0644F14C-066F-4D08-A395-670FB8AAE5BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0644F14C-066F-4D08-A395-670FB8AAE5BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CD5BA5-16B0-4DF5-8621-602D5A0FA670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CD5BA5-16B0-4DF5-8621-602D5A0FA670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CD5BA5-16B0-4DF5-8621-602D5A0FA670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CD5BA5-16B0-4DF5-8621-602D5A0FA670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.0.186:8080/tfs/cidbcollection
+		SccProjectUniqueName0 = CMS.BAL\\CMS.BAL.csproj
+		SccProjectName0 = CMS.BAL
+		SccAuxPath0 = http://192.168.0.186:8080/tfs/cidbcollection
+		SccLocalPath0 = CMS.BAL
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = CMS.common\\CMS.Common.csproj
+		SccProjectName1 = CMS.common
+		SccAuxPath1 = http://192.168.0.186:8080/tfs/cidbcollection
+		SccLocalPath1 = CMS.common
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = CMS.model\\CMS.Model.csproj
+		SccProjectName2 = CMS.model
+		SccAuxPath2 = http://192.168.0.186:8080/tfs/cidbcollection
+		SccLocalPath2 = CMS.model
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = CMS.services\\CMS.DAL.csproj
+		SccProjectName3 = CMS.services
+		SccAuxPath3 = http://192.168.0.186:8080/tfs/cidbcollection
+		SccLocalPath3 = CMS.services
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = CMS\\CMS.csproj
+		SccProjectName4 = CMS
+		SccAuxPath4 = http://192.168.0.186:8080/tfs/cidbcollection
+		SccLocalPath4 = CMS
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
